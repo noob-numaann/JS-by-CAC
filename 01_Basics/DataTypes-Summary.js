@@ -40,3 +40,31 @@ console.log (typeof id);
 console.log (typeof anotherId);
 console.log (typeof heros);
 console.log (typeof myFunction);
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non- Primitive) 
+
+let myYoutubename = "The Dollor Files"
+
+let anotherName = myYoutubename
+anotherName = "Numaann"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+
+let userOne = {
+    email: "numan@gmail.com",
+    upi: "numan@axis"
+}
+
+let userTwo =  userOne
+
+userTwo.email = "nomail@op.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
