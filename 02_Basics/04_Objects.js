@@ -25,8 +25,8 @@ const obj4 = { 5: "g", 6: "h", 7: "i"}
 // const obj3 = {obj1, obj2}
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
 
-const obj3 = {...obj1, ...obj2, ...obj4}
-console.log(obj3);
+// const obj3 = {...obj1, ...obj2, ...obj4}
+// console.log(obj3);
 
 
 const users = [
@@ -45,10 +45,34 @@ const users = [
 ]
 users[1]. email
 
-console.log(wifiUser);
+// console.log(wifiUser);
 
-console.log(Object.keys(wifiUser));
-console.log(Object.values(wifiUser));
-console.log(Object.entries(wifiUser));
+// console.log(Object.keys(wifiUser));
+// console.log(Object.values(wifiUser));
+// console.log(Object.entries(wifiUser));
 
-console.log(wifiUser.hasOwnProperty('isLoggedIn'));
+// console.log(wifiUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    coursename: "js in Hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+// console.log(course.courseInstructor);
+
+const {courseInstructor: instructor} = course 
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+// {
+//   "name": "Numan",
+//   "id": "noob-numan",
+//   "account": 3892
+// }
+[
+    {},
+    {},
+    {}
+]
