@@ -36,8 +36,7 @@ for (let index = 0; index < myArray.length; index++) {
 for (let i = 1; i <= 20; i++) {
     if(i == 4){
         console.log(" I Love 4");
-       break // continue // skips once  
-        
+       break // continue // skips once   
     }
     console.log(`Value of  i is ${i}`);
 }
